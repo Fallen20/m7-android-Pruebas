@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">BottomNavigationView</string>
+    <string name="app_name">RecyclerView</string>
 
+    <string name="location">Localización</string>
+    <string name="upload">Subir post</string>
+    <string name="mensaje">Mensajes</string>
 
-    <string name="casa">Home</string>
-    <string name="perfil">Profile</string>
-    <string name="ajustes">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome to Pictogram!</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
 </resources>
