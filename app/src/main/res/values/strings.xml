@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">BottomNavigationView</string>
-
-
-    <string name="casa">Home</string>
-    <string name="perfil">Profile</string>
-    <string name="ajustes">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Calculator</string>
+    <string name="botonSuma">+</string>
+    <string name="botonResta">-</string>
+    <string name="botonMulti">*</string>
+    <string name="botonDiv">/</string>
+    <string name="botonInfo">Mas info</string>
+    <string name="hint">Enter number</string>
+    <string name="zero">0</string>
 </resources>
