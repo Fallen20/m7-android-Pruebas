@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -14,9 +14,9 @@
 
         <LinearLayout
             android:id="@+id/Arriba"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:orientation="horizontal">
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -25,11 +25,10 @@
 
                 <ImageView
                     android:id="@+id/image1"
-                    android:layout_width="match_parent"
+                    android:layout_width="250dp"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/sierra" />
-
             </RelativeLayout>
 
             <RelativeLayout
@@ -48,9 +47,9 @@
 
         <LinearLayout
             android:id="@+id/Medio"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_below="@id/Arriba"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/Arriba"
             android:orientation="vertical">
 
             <ImageView
@@ -58,16 +57,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/cuadrado_horizontal" />
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/cuadrado_vertical" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Abajo"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/Medio"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/Medio"
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -75,18 +74,11 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:id="@+id/image4Reverse"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/redonda_alargada" />
-
-                <ImageView
                     android:id="@+id/image4"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/cubo_alargado" />
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/cubo_cuadrado" />
 
             </RelativeLayout>
 
@@ -98,9 +90,9 @@
                 <ImageView
                     android:id="@+id/image5"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/redonda_alargada" />
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/redonda_cuadrada" />
             </RelativeLayout>
         </LinearLayout>
 
