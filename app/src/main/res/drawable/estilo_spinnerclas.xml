@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp"/>
+            <padding android:right="10dp"></padding>
+            <gradient
+                    android:endColor="@color/purple_200"
+                    android:startColor="@color/teal_200"
+                    android:angle="45"
+                    android:type="linear"></gradient>
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/icono_lista"
+            android:gravity="center|right"
+            android:tint="@android:color/white"/>
+    </item>
+</layer-list>
+

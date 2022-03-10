@@ -1,10 +1,19 @@
 <resources>
-    <string name="app_name">BottomNavigationView</string>
+    <string name="app_name">SpinnerEjemplo</string>
 
+    <string-array name="arraySpinner1">
+        //esto es una array
+        <item>Eleccion1.1</item>
+        <item>Eleccion1.2</item>
+        <item>Eleccion1.3</item>
+        <item>Eleccion1.4</item>
+    </string-array>
 
-    <string name="casa">Home</string>
-    <string name="perfil">Profile</string>
-    <string name="ajustes">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="arraySpinner2">
+        //esto es una array
+        <item>Eleccion2.1</item>
+        <item>Eleccion2.2</item>
+        <item>Eleccion2.3</item>
+        <item>Eleccion2.4</item>
+    </string-array>
 </resources>
