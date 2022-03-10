@@ -1,10 +1,21 @@
 <resources>
-    <string name="app_name">BottomNavigationView</string>
+    <string name="app_name">Edt34_parte2</string>
+    <string name="txtGrande">Refugis</string>
+    <string name="txtPeque">Outdoor living</string>
 
+    <string name="nomPalabra">Nom</string>
+    <string name="cognomPalabra">Cognom</string>
+    <string name="emailPalabra">Email</string>
+    <string name="numPersonasPalabra">Número de persones</string>
 
-    <string name="casa">Home</string>
-    <string name="perfil">Profile</string>
-    <string name="ajustes">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PensionCompleta">Pensió Completa</string>
+    <string name="radioVegetariano">Vegetarià</string>
+    <string name="radioSinGluten">Sense Gluten</string>
+    <string name="radioCeliaco">Celiac</string>
+    <string name="radioNada">Cap</string>
+
+    <string name="entradaPalabra">Entrada</string>
+    <string name="salidaPalabra">Sortida</string>
+
+    <string name="reservarPalabra">RESERVAR</string>
 </resources>
