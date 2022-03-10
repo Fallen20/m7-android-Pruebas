@@ -1,10 +1,21 @@
 <resources>
-    <string name="app_name">BottomNavigationView</string>
+    <string name="app_name">Edt72</string>
 
+    <string name="tituloTop">Undertale</string>
+    <string name="tituloInf">Characters</string>
 
-    <string name="casa">Home</string>
-    <string name="perfil">Profile</string>
-    <string name="ajustes">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toriel">Toriel</string>
+    <string name="asgore">Asgore</string>
+    <string name="alphys">Alphys</string>
+    <string name="undyne">Undyne</string>
+    <string name="sans">Sans</string>
+    <string name="papyrus">Papyrus</string>
+    <string name="flowey">Flowey</string>
+    <string name="mettaton">Mettaton</string>
+    <string name="muffet">Muffet</string>
+    <string name="onionsan">Onion-san</string>
+    <string name="title">Ruby</string>
+    <string name="position">Boss monster</string>
+    <string name="power1">Fire</string>
+    <string name="blank" />
 </resources>

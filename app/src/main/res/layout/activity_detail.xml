@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#492525"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/tituloDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cargoDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tituloDetail"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    app:cardCornerRadius="50dp">
+
+                    <ImageView
+                        android:id="@+id/imageProduct"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/asgore" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/Personalidad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/persTitulo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="· Personality"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/personalidadDesc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/persTitulo"
+                            android:layout_marginTop="10dp"
+                            android:text="TextView" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/Backstory"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/backTitulo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="· Backstory"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/backDesc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/backTitulo"
+                            android:layout_marginTop="10dp"
+                            android:text="TextView" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/Batalla"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/BatallaTit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="· Battle"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/BatallaDesc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/BatallaTit"
+                            android:layout_marginTop="10dp"
+                            android:text="TextView" />
+
+                        <RelativeLayout
+                            android:id="@+id/Poderes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/BatallaDesc"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:id="@+id/PoderesTitPrincipal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:text="Powers"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <RelativeLayout
+                                android:id="@+id/Poder1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_below="@id/PoderesTitPrincipal"
+                                android:layout_marginTop="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/Poder1Tit"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Poder 1"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/Poder1Desc"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="texto1"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentRight="true"
+                                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/Poder2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_below="@id/Poder1"
+                                android:layout_marginTop="10dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_alignParentRight="true"
+                                    app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/Poder2Tit"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Poder 2"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/Poder2Desc"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="TextView"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/Poderes"
+                            android:layout_marginTop="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/battleSprite"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView6"
+                                    android:layout_width="160dp"
+                                    android:layout_height="100dp"
+                                    app:srcCompat="@drawable/asgore" />
+
+                                <TextView
+                                    android:id="@+id/battleTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="Battle sprite"
+                                    android:textSize="12dp"
+                                    android:textStyle="italic" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/worldSprite"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@id/battleSprite"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView9"
+                                    android:layout_width="160dp"
+                                    android:layout_height="100dp"
+                                    app:srcCompat="@drawable/asgore" />
+
+                                <TextView
+                                    android:id="@+id/worldTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center_horizontal"
+                                    android:text="Underworld sprite"
+                                    android:textSize="12dp"
+                                    android:textStyle="italic" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/RelationsTitGrande"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="· Relations"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:id="@+id/persona1Tit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_centerVertical="true"
+                                android:text="Nombre" />
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    tools:srcCompat="@drawable/asgore" />
+                            </androidx.cardview.widget.CardView>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:id="@+id/persona2Tit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="Nombre" />
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    app:srcCompat="@drawable/asgore" />
+                            </androidx.cardview.widget.CardView>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
