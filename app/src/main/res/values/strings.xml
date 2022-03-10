@@ -1,10 +1,21 @@
 <resources>
-    <string name="app_name">BottomNavigationView</string>
+    <string name="app_name">RecyclerView</string>
 
+    <string-array name="tittle">
+        <item>Catto1</item>
+        <item>Doggo1</item>
+        <item>CattoMem1</item>
+        <item>Catto2</item>
+        <item>Doggo2</item>
+        <item>CattoMem2</item>
+    </string-array>
 
-    <string name="casa">Home</string>
-    <string name="perfil">Profile</string>
-    <string name="ajustes">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="descripciones">
+        <item>Descripcion1</item>
+        <item>Descripcion2</item>
+        <item>Descripcion3</item>
+        <item>Descripcion4</item>
+        <item>Descripcion5</item>
+        <item>Descripcion6</item>
+    </string-array>
 </resources>
