@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/casa_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/bike"
+            android:icon="@drawable/bici_icon"
+            android:title="Bike" />
+        <item
+            android:id="@+id/car"
+            android:icon="@drawable/coche_icon"
+            android:title="Car" />
+        <item
+            android:id="@+id/foot"
+            android:icon="@drawable/run_icon"
+            android:title="Foot" />
+        <item
+            android:id="@+id/plane"
+            android:icon="@drawable/avion_icon"
+            android:title="Plane" />
+    </group>
+    <item android:title="Menu" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/perfil"
+                    android:icon="@drawable/user_icon"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/settings_icon"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/salir"
+                    android:icon="@drawable/salir_icon"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>
